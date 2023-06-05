@@ -2,7 +2,7 @@
 
 ## What are these templates?
 
-These Terraform templates are provided "as is" to help Wiz customers test Secure Auto Remediation (SAR), which are cloud provider specific Python scripts that act on Wiz Controls to remediate configuration issues identified during scans and analysis.
+These Terraform templates are provided "as is" to help Wiz customers test Secure Auto Remediation (SAR), which are cloud provider specific Python scripts that act on Wiz Controls to remediate configuration issues identified during scans and analysis. The templates create and configure cloud services with **"known bad"** configurations that Wiz detects and remediates.
 
 ## How do I use them?
 
