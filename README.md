@@ -24,6 +24,8 @@ Each cloud provider folder has a **variables.tf** file. This is where common par
 
 Prior to downloading and running the templates, it is recommended to create a new, isolated cloud sandbox in order to run the tests. In essence, the templates provide a safe space to test out and get used to SAR without the risk of compromising live services or applications.
 
+Objects are created with the lowest risk profile. For example, PaaS databases contain no data and network security groups / firewall rules are not attached to a live network card or subnet.
+
 Creating a new AWS account / Azure subscription / GCP project may also provide financial benefits as **the templates will always try to provision services at the lowest / cheapest SKU** and new accounts tend to provide free tier limits at this level, making testing a cost effective endeavour.
 
 ## Other notes
